@@ -55,7 +55,7 @@
     "moment": "^2.29.1",
     "ncu": "^0.2.1",
     "pleeease-cli": "^4.1.0",
-    "uglifyjs": "^2.4.11"
+    "uglify-js": "^2.8.29"
   },
   "scripts": {
     "build:css": "pleeease-compile",
