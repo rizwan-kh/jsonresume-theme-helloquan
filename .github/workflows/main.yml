@@ -19,8 +19,6 @@ jobs:
         id: build_and_package
         run: |
           npm install
-          npm run pretest
-          npm run test
           npm run package
           echo "::set-output name=asset_name::$(ls -1 jsonresume-theme-helloquan-*.tgz)"
 

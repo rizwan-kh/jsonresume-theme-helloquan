@@ -45,12 +45,15 @@
     "proseWrap": "preserve"
   },
   "dependencies": {
+    "browserify": "^17.0.0",
     "email-scramble": "^2.0.1",
     "handlebars": "^4.7.7",
+    "jshint": "^2.13.0",
     "jsonresume-theme-eloquent": "^4.1.0",
     "micromark": "^2.11.4",
     "moment": "^2.29.1",
-    "ncu": "^0.2.1"
+    "ncu": "^0.2.1",
+    "pleeease-cli": "^4.1.0"
   },
   "scripts": {
     "build:css": "pleeease-compile",
