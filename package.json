@@ -54,7 +54,8 @@
     "micromark": "^2.11.4",
     "moment": "^2.29.1",
     "ncu": "^0.2.1",
-    "pleeease-cli": "^4.1.0"
+    "pleeease-cli": "^4.1.0",
+    "uglifyjs": "^2.4.11"
   },
   "scripts": {
     "build:css": "pleeease-compile",
