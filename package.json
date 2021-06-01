@@ -1,17 +1,17 @@
 {
   "name": "jsonresume-theme-helloquan",
-  "version": "4.4.0",
+  "version": "4.5.0",
   "description": "An eloquent JSON Resume theme: fluent, persuasive, for developers",
-  "author": "Thibaud Colas, Truc Nguyen",
+  "author": "Thibaud Colas, Rizwan Khan",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "https://github.com/trucngn/jsonresume-theme-helloquan",
+  "homepage": "https://github.com/rizwan-kh/jsonresume-theme-helloquan",
   "repository": {
     "type": "git",
-    "url": "https://github.com/trucngn/jsonresume-theme-helloquan.git"
+    "url": "git+https://github.com/rizwan-kh/jsonresume-theme-helloquan.git"
   },
   "bugs": {
-    "url": "https://github.com/trucngn/jsonresume-theme-helloquan/issues"
+    "url": "https://github.com/rizwan-kh/jsonresume-theme-helloquan/issues"
   },
   "engines": {
     "node": ">=4.0"
@@ -47,20 +47,20 @@
   "dependencies": {
     "email-scramble": "^2.0.1",
     "handlebars": "^4.7.6",
-    "moment": "^2.22.2",
-    "micromark": "^2.10.1"
+    "micromark": "^2.10.1",
+    "moment": "^2.22.2"
   },
   "devDependencies": {
-    "babel": "^5.8.29",
-    "babelify": "^6.4.0",
+    "babel": "^6.23.0",
+    "babelify": "^10.0.0",
     "browser-saveas": "^1.0.0",
     "browser-sync": "^2.26.13",
     "browserify": "^13.0.1",
     "chai": "^3.4.0",
     "jshint": "^2.12.0",
-    "mocha": "^3.0.0",
+    "mocha": "^8.4.0",
     "nodemon": "^1.18.7",
-    "pleeease-cli": "^4.0.0",
+    "pleeease-cli": "^3.2.1",
     "resume-schema": "0.0.16",
     "uglify-js": "^2.5.0",
     "webfont-dl": "^0.1.1"
@@ -81,5 +81,9 @@
     "report:package": "npm pack --loglevel notice 2>&1 >/dev/null | sed -e 's/^npm notice //' | tee dist/package.txt && rm -f *.tgz",
     "package": "rm -f *.tgz && npm run build && npm pack",
     "webfont": "webfont-dl 'https://fonts.googleapis.com/css?family=Open+Sans:400' -o assets/styles/opensans.css --woff1=data --woff2=omit --svg=omit --ttf=omit --eot=omit"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
